@@ -7,6 +7,14 @@
         "express": "latest",
         "express-handlebars": "latest",
         "promise": "latest",
-        "instagram-node": "latest"
+        "instagram-node": "latest",
+        "body-parser": "latest"
+    },
+    "subdomain": "ss-ig-prototype",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "engines": {
+        "node": "0.10.x"
     }
 }
