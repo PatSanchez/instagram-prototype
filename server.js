@@ -36,9 +36,6 @@ app.get("/", function(req, res){
 
 app.get('/gallery/:tag', function(req, res){
     ig.tag_media_recent(req.params.tag, function(err, media, pagination, remaining, limit) {
-        console.log(pagination);
-        console.log(remaining);
-        console.log(limit);
         res.render('gallery', {hashtag: req.params.tag, media: media});
     });
     

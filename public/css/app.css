@@ -1,0 +1,37 @@
+.application-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.modal-footer {
+    text-align: left;
+}
+
+.modal-footer .user-avatar {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 1em;
+}
+
+.modal-footer .user-name {
+    float: left;
+}
+
+.modal-footer .image-caption {
+    float: left;
+    max-width: calc(100% - (70px + 1em));
+}
+
+.search-panel {
+    max-width: 640px;
+    margin: 2em auto;
+}
+
+.search-panel h3 {
+    text-align: center;
+}
