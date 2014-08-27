@@ -1,0 +1,12 @@
+{
+    "name": "instagram-prototype",
+    "description": "Prototype of an instagram gallery",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "latest",
+        "express-handlebars": "latest",
+        "promise": "latest",
+        "instagram-node": "latest"
+    }
+}
