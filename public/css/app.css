@@ -9,6 +9,7 @@ img {
 
 .modal-footer {
     text-align: left;
+    overflow: hidden;
 }
 
 .modal-footer .user-avatar {
@@ -25,6 +26,7 @@ img {
 .modal-footer .image-caption {
     float: left;
     max-width: calc(100% - (70px + 1em));
+    word-break: break-word;
 }
 
 .search-panel {
